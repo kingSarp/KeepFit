@@ -14,13 +14,16 @@
   justify-content: space-between;
 }
 
-.text-content p {
-  font-weight: bolder;
-  // margin-left: 20%;
-  // font-size: xx-large;
-  font-size: 30px;
+.mini-content-0{
+  margin-left: 17%;
+}
 
-  margin-left: 20%;
+.mini-content-0 p{
+  font-weight: bolder;
+  font-size: 30px;
+  font-size: 2.5em;
+  margin: 17px;
+  line-height: 35px;
 }
 .mini-content {
   width: 55%;

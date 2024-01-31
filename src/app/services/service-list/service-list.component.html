@@ -1,0 +1,15 @@
+<!-- <app-service-item></app-service-item> -->
+<div class="services">
+  <div class="service-content" *ngFor="let service of services">
+    <div class="icon">
+      <img [src]="service.imagePath" alt="{{ service.name }}" srcset="" />
+    </div>
+    <div class="text">
+      <a>{{ service.name }}</a>
+    </div>
+    <div class="text-2">{{ service.description }}</div>
+    <div class="text-3">
+      <a>PRO</a>
+    </div>
+  </div>
+</div>
